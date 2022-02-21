@@ -88,6 +88,11 @@ nav {
           display: none;
       }
 
+      .foto-berita{
+          width: 100% !important;
+          height: auto;
+      }
+
 
 }
 

@@ -76,10 +76,7 @@ nav {
 @media (max-width: 575.98px) {
 
     .peta,
-    .agenda-prestasi-lain,
-    .tag-lihat-semua-visi-misi,
-    .tag-agenda-visi-misi,
-    .tag-lihat-semua {
+    .agenda-prestasi-lain {
         display: none;
     }
 
@@ -100,24 +97,13 @@ nav {
         height: auto !important;
     }
 
-    .jarak-unduhan{
-        margin-top: 40px !important;
-    }
-
 
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-    .galeri {
-        width: 100% !important;
-        height: auto !important;
-    }
-
+    
     .agenda-prestasi-lain,
-    .tag-lihat-semua-visi-misi,
-    .tag-agenda-visi-misi,
-    .tag-lihat-semua,
     .peta {
         display: none;
     }
@@ -126,32 +112,27 @@ nav {
         margin-left: 20px !important;
     }
 
-    .jarak-unduhan{
-        margin-top: 40px !important;
+    .galeri{
+        width: 100% !important;
+        height: auto;
     }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
-    .agenda-prestasi-lain,
-    .tag-lihat-semua {
-        display: none;
-    }
 
     .tag-berita-lain {
         margin-left: 20px !important;
     }
 
-    .sarpras{
-        margin-left: 110px !important;
-      }
+    .galeri{
+        width: 100% !important;
+    }
+
 
 }
 
 @media (min-width: 956px) and (max-width: 1049px) {
-    .galeri {
-        width: 330px !important;
-    }
 
     .tag-berita-lain {
         margin-left: 20px !important;

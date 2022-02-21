@@ -97,14 +97,7 @@ nav {
         height: auto !important;
     }
 
-    .foto-sarpras{
-        width: 80% !important;
-        height: auto !important;
-    }
-
-    .jarak-sarpras{
-        margin-top: 35px !important;
-    }
+    
 
 }
 
@@ -118,7 +111,8 @@ nav {
     .agenda-prestasi-lain,
     .tag-lihat-semua-visi-misi,
     .tag-agenda-visi-misi,
-    .tag-lihat-semua {
+    .tag-lihat-semua,
+    .peta {
         display: none;
     }
 
@@ -127,36 +121,26 @@ nav {
     }
 
     .foto-sarpras{
-        width: 90% !important;
-        height: auto;
+        width: 70% !important;
     }
 
-    .jarak-sarpras{
-        margin-top: 35px !important;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .agenda-prestasi-lain,
-    .tag-lihat-semua {
-        display: none;
-    }
 
     .tag-berita-lain {
         margin-left: 20px !important;
     }
 
-    .sarpras{
-        margin-left: 110px !important;
-      }
+    .galeri {
+        width: 100% !important;
+        height: auto !important;
+    }
 
 }
 
 @media (min-width: 956px) and (max-width: 1049px) {
-    .galeri {
-        width: 330px !important;
-    }
 
     .tag-berita-lain {
         margin-left: 20px !important;

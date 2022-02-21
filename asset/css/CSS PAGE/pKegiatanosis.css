@@ -82,25 +82,20 @@ nav {
         font-size: 28px !important;
       }
 
-      .agenda-prestasi-lain-visi-misi,
-      .tag-lihat-semua-visi-misi,
-      .tag-agenda-visi-misi{
+      .agenda-prestasi-lain-visi-misi{
           display: none;
       }
 
-      .foto-berita{
+      .foto-kegiatan{
           width: 100% !important;
           height: auto;
       }
-
 
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     .agenda-prestasi-lain-visi-misi,
-    .tag-lihat-semua-visi-misi,
-    .tag-agenda-visi-misi,
     .peta{
         display: none;
     }
