@@ -73,9 +73,7 @@ nav {
 @media (max-width: 575.98px) {
 
     .peta,
-    .agenda-berita-lain,
-    .tag-lihat-semua,
-    .tag-berita {
+    .agenda-berita-lain {
         display: none;
     }
 
@@ -111,9 +109,7 @@ nav {
         height: auto !important;
     }
 
-    .jarak-video{
-        margin-top: 35px !important;
-    }
+    
 
 }
 
@@ -121,8 +117,6 @@ nav {
 
 
     .agenda-berita-lain,
-    .tag-lihat-semua,
-    .tag-berita,
     .peta {
         display: none;
     }
@@ -154,28 +148,23 @@ nav {
         height: auto;
     }
 
-    .jarak-video{
-        margin-top: 35px !important;
-    }
+    
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
-    .agenda-berita-lain {
-        display: none;
-    }
 
     .foto-top img {
         width: 100% !important;
         height: auto !important;
     }
 
-    .kolom-video {
-        margin-left: 110px !important;
-    }
-
     .tag-agenda {
         margin-left: 20px !important;
+    }
+
+    .video{
+        width: 100% !important;
+        height: auto;
     }
 
     
@@ -188,8 +177,9 @@ nav {
         height: auto !important;
     }
 
-    .video {
-        width: 330px !important;
+    .video{
+        width: 100% !important;
+        height: auto;
     }
 
     .tag-agenda {
