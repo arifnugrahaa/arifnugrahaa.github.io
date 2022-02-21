@@ -122,8 +122,6 @@ nav {
 
 
     .agenda-berita-lain,
-    .tag-lihat-semua,
-    .tag-berita,
     .peta {
         display: none;
     }
@@ -147,40 +145,26 @@ nav {
         height: auto !important;
     }
 
-    .tag-agenda {
-        margin-left: 20px !important;
-    }
-
     .foto-galeri{
         width: 80% !important;
         height: auto;
         
     }
-
-    .jarak-galeri{
-        margin-top: 35px !important;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .agenda-berita-lain {
-        display: none;
-    }
 
     .foto-top img {
         width: 100% !important;
         height: auto !important;
     }
 
-
-    .kolom-galeri {
-        margin-left: 110px !important;
+    .galeri {
+        width: 100% !important;
+        height: auto !important;
     }
 
-    .tag-agenda {
-        margin-left: 20px !important;
-    }
 }
 
 @media (min-width: 956px) and (max-width: 1049px) {
@@ -190,11 +174,4 @@ nav {
         height: auto !important;
     }
 
-    .galeri {
-        width: 330px !important;
-    }
-
-    .tag-agenda {
-        margin-left: 20px !important;
-    }
 }
