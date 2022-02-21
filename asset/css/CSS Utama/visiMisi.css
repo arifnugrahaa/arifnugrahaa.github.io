@@ -23,12 +23,12 @@ nav {
     font-family: 'Oswald', sans-serif !important;
   }
 
-  .tag-lihat-semua-visi-misi {
+  .tag-lihat-semua {
     font-size: 14px !important;
     font-family: 'Readex Pro', sans-serif !important;
   }
 
-  .tag-agenda-visi-misi{
+  .tag-agenda{
     font-size: 18px !important;
     font-family: 'Oswald', sans-serif !important;
   }
@@ -43,21 +43,12 @@ nav {
     font-family: 'Roboto', sans-serif !important;
   }
 
-  .tag-berita-lain-visi-misi {
-    font-size: 18px !important;
-    font-family: 'Oswald', sans-serif !important;
-  }
-
-  .tag-lihat-semua-visi-misi {
-    font-size: 14px !important;
-    font-family: 'Readex Pro', sans-serif !important;
-  }
-
 
 
 @media (max-width: 575.98px) {
 
-    .peta {
+    .peta,
+    .agenda-prestasi-lain {
         display: none;
     }
 
@@ -77,23 +68,11 @@ nav {
         width: 100% !important;
       }
 
-      .agenda-prestasi-lain-visi-misi,
-      .tag-lihat-semua-visi-misi,
-      .tag-agenda-visi-misi,
-      .tag-berita-lain-visi-misi,
-      .tag-lihat-semua-visi-misi {
-        display: none;
-      }
-
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-    .agenda-prestasi-lain-visi-misi,
-    .tag-lihat-semua-visi-misi,
-    .tag-agenda-visi-misi,
-    .tag-berita-lain-visi-misi,
-    .tag-lihat-semua-visi-misi,
+    .agenda-prestasi-lain,
     .peta{
         display: none;
       }
