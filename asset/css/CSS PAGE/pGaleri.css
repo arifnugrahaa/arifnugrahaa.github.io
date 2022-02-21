@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anonymous+Pro&family=Nunito&family=Oswald&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora&family=Oswald&family=Prata&family=Roboto&display=swap');
+
+
+nav {
+    font-family: 'Alata', sans-serif !important;
+
+}
+
+.footer-school {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.footer-school-desc {
+    font-family: 'Alata', sans-serif !important;
+}
+
+.agenda {
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .judul-agenda{
+      font-family: 'Oswald', sans-serif !important;
+  }
+
+  .waktu{
+      font-family: 'Roboto', sans-serif !important;
+  }
+
+  .isi-agenda{
+      font-family: 'Alata', sans-serif !important;
+  }
+
+  .bagi{
+      font-family: 'Oswald', sans-serif !important;
+  }
+
+  .komen{
+      font-family: 'Alata', sans-serif !important;
+  }
+
+  .karakter{
+      font-family: 'Roboto', sans-serif !important;
+  }
+
+  .kirim{
+      font-family: 'Alata', sans-serif !important;
+  }
+
+  .tag-lihat-semua-visi-misi {
+    font-size: 14px !important;
+    font-family: 'Readex Pro', sans-serif !important;
+  }
+
+  .tag-agenda-visi-misi{
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .judul-agenda-berita-lain {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+
+
+@media (max-width: 575.98px) {
+
+    .peta {
+        display: none;
+    }
+
+    .footer-school {
+        font-size: 24px !important;
+    }
+
+    .footer-school-desc {
+        font-size: 12px !important;
+    }
+
+    .agenda {
+        font-size: 28px !important;
+      }
+
+      .agenda-prestasi-lain-visi-misi,
+      .tag-lihat-semua-visi-misi,
+      .tag-agenda-visi-misi{
+          display: none;
+      }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .agenda-prestasi-lain-visi-misi,
+    .tag-lihat-semua-visi-misi,
+    .tag-agenda-visi-misi,
+    .peta{
+        display: none;
+    }
+
+    .foto-galeri{
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .foto-galeri{
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+@media (min-width: 956px) and (max-width: 1049px) {}

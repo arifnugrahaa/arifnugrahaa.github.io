@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anonymous+Pro&family=Nunito&family=Oswald&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora&family=Oswald&family=Prata&family=Roboto&display=swap');
+
+
+nav {
+    font-family: 'Alata', sans-serif !important;
+
+}
+
+.footer-school {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.footer-school-desc {
+    font-family: 'Alata', sans-serif !important;
+}
+
+.sarpras {
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .judul-sarpras tr th{
+      font-family: 'Oswald', sans-serif !important;
+  }
+
+  .isi-sarpras tr td{
+      font-family: 'Alata', sans-serif !important;
+  }
+
+  
+  .tab{
+      font-family: 'Alata', sans-serif !important;
+  }
+
+
+@media (max-width: 575.98px) {
+
+    .peta {
+        display: none;
+    }
+
+    .footer-school {
+        font-size: 24px !important;
+    }
+
+    .footer-school-desc {
+        font-size: 12px !important;
+    }
+
+    .sarpras {
+        font-size: 28px !important;
+      }
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .peta{
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 956px) and (max-width: 1049px) {}

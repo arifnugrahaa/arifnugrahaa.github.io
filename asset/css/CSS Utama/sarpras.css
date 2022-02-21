@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anonymous+Pro&family=Nunito&family=Oswald&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora&family=Oswald&family=Prata&family=Roboto&display=swap');
+
+
+nav {
+    font-family: 'Alata', sans-serif !important;
+
+}
+
+.footer-school {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.footer-school-desc {
+    font-family: 'Alata', sans-serif !important;
+}
+
+.scrollb {
+    max-height: 400px;
+    overflow-x: auto;
+}
+
+.visi-misi {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.header-galeri {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.isi-galeri {
+    font-family: 'Alata', sans-serif !important;
+}
+
+.read-more-galeri {
+    font-size: 14px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.tag-lihat-semua-visi-misi {
+    font-size: 14px !important;
+    font-family: 'Readex Pro', sans-serif !important;
+}
+
+.tag-agenda-visi-misi {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.judul-agenda-berita-lain {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.waktu-agenda-berita-lain {
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.tag-berita-lain {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.tag-lihat-semua {
+    font-size: 14px !important;
+    font-family: 'Readex Pro', sans-serif !important;
+  }
+
+
+@media (max-width: 575.98px) {
+
+    .peta,
+    .agenda-prestasi-lain,
+    .tag-lihat-semua-visi-misi,
+    .tag-agenda-visi-misi,
+    .tag-lihat-semua,
+    .peta {
+        display: none;
+    }
+
+    .footer-school {
+        font-size: 24px !important;
+    }
+
+    .footer-school-desc {
+        font-size: 12px !important;
+    }
+
+    .visi-misi {
+        font-size: 28px !important;
+    }
+
+    .galeri {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .foto-sarpras{
+        width: 80% !important;
+        height: auto !important;
+    }
+
+    .jarak-sarpras{
+        margin-top: 35px !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .galeri {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .agenda-prestasi-lain,
+    .tag-lihat-semua-visi-misi,
+    .tag-agenda-visi-misi,
+    .tag-lihat-semua {
+        display: none;
+    }
+
+    .tag-berita-lain {
+        margin-left: 20px !important;
+    }
+
+    .foto-sarpras{
+        width: 90% !important;
+        height: auto;
+    }
+
+    .jarak-sarpras{
+        margin-top: 35px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .agenda-prestasi-lain,
+    .tag-lihat-semua {
+        display: none;
+    }
+
+    .tag-berita-lain {
+        margin-left: 20px !important;
+    }
+
+    .sarpras{
+        margin-left: 110px !important;
+      }
+
+}
+
+@media (min-width: 956px) and (max-width: 1049px) {
+    .galeri {
+        width: 330px !important;
+    }
+
+    .tag-berita-lain {
+        margin-left: 20px !important;
+    }
+}

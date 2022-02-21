@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anonymous+Pro&family=Nunito&family=Oswald&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora&family=Oswald&family=Prata&family=Roboto&display=swap');
+
+
+nav {
+    font-family: 'Alata', sans-serif !important;
+
+}
+
+.footer-school {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.footer-school-desc {
+    font-family: 'Alata', sans-serif !important;
+}
+
+
+.scrollb {
+    max-height: 400px;
+    overflow-x: auto;
+  }
+
+  .visi-misi {
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .judul-prestasi{
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .waktu-prestasi{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 12px !important;
+  }
+
+  .isi-prestasi{
+    font-family: 'Alata', sans-serif !important;
+  }
+
+  .tag-lihat-semua-visi-misi {
+    font-size: 14px !important;
+    font-family: 'Readex Pro', sans-serif !important;
+  }
+
+  .tag-agenda-visi-misi{
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .judul-agenda-berita-lain {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .waktu-agenda-berita-lain-visi-misi {
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif !important;
+  }
+
+  .tag-berita-lain-visi-misi {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .tag-lihat-semua-visi-misi {
+    font-size: 14px !important;
+    font-family: 'Readex Pro', sans-serif !important;
+  }
+
+
+
+@media (max-width: 575.98px) {
+
+    .peta {
+        display: none;
+    }
+
+    .footer-school {
+        font-size: 24px !important;
+    }
+
+    .footer-school-desc {
+        font-size: 12px !important;
+    }
+
+    .visi-misi {
+        font-size: 28px !important;
+      }
+
+      .konten-visi-misi {
+        width: 100% !important;
+      }
+
+      .agenda-prestasi-lain-visi-misi,
+      .tag-lihat-semua-visi-misi,
+      .tag-agenda-visi-misi,
+      .tag-berita-lain-visi-misi,
+      .tag-lihat-semua-visi-misi {
+        display: none;
+      }
+
+      .foto-prestasi{
+        width: 80% !important;
+        height: auto;
+      }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .agenda-prestasi-lain-visi-misi,
+    .tag-lihat-semua-visi-misi,
+    .tag-agenda-visi-misi,
+    .tag-berita-lain-visi-misi,
+    .tag-lihat-semua-visi-misi,
+    .peta {
+        display: none;
+      }
+
+      
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .foto-prestasi{
+        width: 200px !important;
+        height: 170px !important;
+      }
+}
+
+@media (min-width: 956px) and (max-width: 1049px) {}

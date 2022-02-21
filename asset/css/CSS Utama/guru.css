@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anonymous+Pro&family=Nunito&family=Oswald&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora&family=Oswald&family=Prata&family=Roboto&display=swap');
+
+
+nav {
+    font-family: 'Alata', sans-serif !important;
+
+}
+
+.footer-school {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.footer-school-desc {
+    font-family: 'Alata', sans-serif !important;
+}
+
+.tentang-sekolah {
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .filter-guru{
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .pilih-filter{
+    font-family: 'Alata', sans-serif !important;
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .tabel-guru{
+    font-family: 'Oswald', sans-serif !important;
+  }
+
+  .data-guru{
+    font-family: 'Alata', sans-serif !important;
+  }
+
+
+
+@media (max-width: 575.98px) {
+
+    .peta {
+        display: none;
+    }
+
+    .footer-school {
+        font-size: 24px !important;
+    }
+
+    .footer-school-desc {
+        font-size: 12px !important;
+    }
+
+    .tentang-sekolah h2 {
+        font-size: 24px !important;
+      }
+    
+      .tentang-sekolah {
+        font-size: 24px !important;
+      }
+
+      .pilih-filter{
+        font-family: 'Alata', sans-serif !important;
+        width: 100% !important;
+      }
+
+      .foto-guru{
+        width: 100px !important;
+        height: 100px !important;
+      }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .pilih-filter{
+        font-family: 'Alata', sans-serif !important;
+        width: 100% !important;
+      }
+
+      .foto-guru{
+        width: 120px !important;
+        height: 120px !important;
+      }
+
+      .peta{
+        display: none;
+      }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .pilih-filter{
+        font-family: 'Alata', sans-serif !important;
+        width: 100% !important;
+      }
+    
+
+}
+
+@media (min-width: 956px) and (max-width: 1049px) {
+    
+    .pilih-filter{
+        font-family: 'Alata', sans-serif !important;
+        width: 100% !important;
+      }
+}

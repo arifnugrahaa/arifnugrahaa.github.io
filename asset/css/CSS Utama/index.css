@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anonymous+Pro&family=Nunito&family=Oswald&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora&family=Oswald&family=Prata&family=Roboto&display=swap');
+
+
+nav {
+  font-family: 'Alata', sans-serif !important;
+
+}
+
+/* INDEX */
+.bg {
+  background-image: url("../../img/bg1.png");
+  background-size: cover;
+}
+
+.no {
+  font-size: 36px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.no1 {
+  font-size: 24px !important;
+  font-family: 'Oswald', sans-serif !important;
+  color: #FFFFFF80;
+}
+
+.school {
+  font-size: 54px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.sch-des {
+  font-size: 18px !important;
+  font-family: 'Alata', sans-serif !important;
+  color: #FDFDFDB3;
+}
+
+.read-more {
+  font-size: 18px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.footer-bg {
+  backdrop-filter: blur(5px);
+}
+
+.cal,
+.jadwal,
+.alamat,
+.isi-sambutan,
+.pengajar-desc,
+.footer-school-desc {
+  font-family: 'Alata', sans-serif !important;
+}
+
+.num,
+.waktu,
+.email {
+  font-size: 18px !important;
+  font-family: 'Alata', sans-serif !important;
+}
+
+.visi,
+.isi-visi {
+  font-size: 54px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.misi,
+.no-misi,
+.isi-misi,
+.sambutan,
+.agenda,
+.isi-agenda,
+.pengajar,
+.tentang,
+.footer-school {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.tgl-agenda,
+.tgl-news {
+  font-family: 'Times New Roman', sans-serif !important;
+}
+
+.news {
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 24px !important;
+}
+
+.read-more-news {
+  font-family: 'Roboto', sans-serif !important;
+  color: black;
+}
+
+.isi-tentang {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.sambut-nama {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+
+.scrollb {
+  max-height: 400px;
+  overflow-x: auto;
+}
+
+@media (max-width: 575.98px) {
+
+    .footer-bg,
+    .conect,
+    .img-sambutan,
+    .agenda,
+    .isi-agenda,
+    .pengajar-desc,
+    .panah-pengajar,
+    .foto-tentang,
+    .peta {
+      display: none;
+    }
+  
+    .visi,
+    .isi-visi,
+    .misi,
+    .pengajar,
+    .sambut-nama {
+      font-size: 28px !important;
+    }
+  
+    .sambutan,
+    .news,
+    .read-more,
+    .read-more-news,
+    .tentang {
+      font-size: 18px !important;
+    }
+  
+    .isi-sambutan,
+    .isi-tentang {
+      font-size: 14px !important;
+    }
+  
+    .scroll-news {
+      width: 100% !important;
+      text-align: center !important;
+    }
+  
+    .foto-pengajar img {
+      width: 250px !important;
+      height: 370px !important;
+    }
+  
+    .foto-scroll-news {
+      width: 250px !important;
+      height: 206px !important;
+      margin-right: 3px !important;
+    }
+  
+    .konten-tentang {
+      width: 100% !important;
+      margin-left: 5px !important;
+    }
+  
+    .footer-school {
+      font-size: 24px !important;
+    }
+  
+    .footer-school-desc {
+      font-size: 12px !important;
+    }
+  
+    .panah-agenda {
+      text-align: right;
+    }
+
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .footer-bg,
+    .img-sambutan,
+    .agenda,
+    .isi-agenda,
+    .pengajar-desc,
+    .peta {
+      display: none;
+    }
+
+    .visi{
+      font-size: 32px !important;
+    }
+
+    .isi-visi{
+      font-size: 28px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .img-sambutan img {
+      width: 220px !important;
+      height: auto !important;
+      text-align: left;
+    }
+  
+    .foto-tentang img {
+      width: 600px !important;
+      height: auto !important;
+    }
+}  

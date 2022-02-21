@@ -1,0 +1,693 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anonymous+Pro&family=Nunito&family=Oswald&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora&family=Oswald&family=Prata&family=Roboto&display=swap');
+
+
+nav {
+  font-family: 'Alata', sans-serif !important;
+
+}
+
+/* INDEX */
+.bg {
+  background-image: url("../img/bg1.png");
+  background-size: cover;
+}
+
+.no {
+  font-size: 36px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.no1 {
+  font-size: 24px !important;
+  font-family: 'Oswald', sans-serif !important;
+  color: #FFFFFF80;
+}
+
+.school {
+  font-size: 54px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.sch-des {
+  font-size: 18px !important;
+  font-family: 'Alata', sans-serif !important;
+  color: #FDFDFDB3;
+}
+
+.read-more {
+  font-size: 18px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.footer-bg {
+  backdrop-filter: blur(5px);
+}
+
+.cal,
+.jadwal,
+.alamat,
+.isi-sambutan,
+.pengajar-desc,
+.footer-school-desc {
+  font-family: 'Alata', sans-serif !important;
+}
+
+.num,
+.waktu,
+.email {
+  font-size: 18px !important;
+  font-family: 'Alata', sans-serif !important;
+}
+
+.visi,
+.isi-visi {
+  font-size: 54px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.misi,
+.no-misi,
+.isi-misi,
+.sambutan,
+.agenda,
+.isi-agenda,
+.pengajar,
+.tentang,
+.footer-school {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.tgl-agenda,
+.tgl-news {
+  font-family: 'Times New Roman', sans-serif !important;
+}
+
+.news {
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 24px !important;
+}
+
+.read-more-news {
+  font-family: 'Roboto', sans-serif !important;
+  color: black;
+}
+
+.isi-tentang {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.sambut-nama {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+
+.scrollb {
+  max-height: 400px;
+  overflow-x: auto;
+}
+
+/* Akhir INDEX */
+
+/* BERITA */
+.foto-top img {
+  width: 428px;
+  height: 227px;
+  border-radius: 7px;
+}
+
+.judul-berita-top {
+  font-size: 36px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.desc-berita-top {
+  font-size: 18px !important;
+  font-family: 'Alata', sans-serif !important;
+}
+
+.waktu-berita-top {
+  font-size: 18px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.tag-berita-lain,
+.tag-agenda,
+.judul-berita-lain,
+.judul-agenda-berita-lain {
+  font-size: 18px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.tag-lihat-semua {
+  font-size: 14px !important;
+  font-family: 'Readex Pro', sans-serif !important;
+}
+
+.waktu-berita-lain,
+.waktu-agenda-berita-lain {
+  font-size: 12px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.desc-berita-lain {
+  font-size: 16px !important;
+  font-family: 'Alata', sans-serif !important;
+}
+
+/* Akhir Berita */
+
+/* GALERI */
+.header-galeri {
+  font-size: 18px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.read-more-galeri {
+  font-size: 14px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+
+
+/* AKHIR GALERI */
+
+/* VIDEO */
+
+
+/* AKHIR VIDEO */
+
+
+/*TENTANG SEKOLAH*/
+.tentang-sekolah {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.slide-tentang-sekolah {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.isi-tentang-sekolah {
+  font-family: 'Alata', sans-serif !important;
+}
+
+/* AKHIR TENTANG SEKOLAH */
+
+/*VISI MISI*/
+.visi-misi {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.isi-visi-misi {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.tag-lihat-semua-visi-misi {
+  font-size: 14px !important;
+  font-family: 'Readex Pro', sans-serif !important;
+}
+
+.tag-agenda-visi-misi,
+.tag-berita-lain-visi-misi {
+  font-size: 18px !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.waktu-agenda-berita-lain-visi-misi {
+  font-size: 12px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* AKHIR VISI MISI */
+
+/* PRESTASI */
+.judul-prestasi{
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.waktu-prestasi{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 12px !important;
+}
+
+.isi-prestasi{
+  font-family: 'Alata', sans-serif !important;
+}
+/* AKHIR PRESTASI */
+
+/* GURU */
+.filter-guru{
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.pilih-filter{
+  font-family: 'Alata', sans-serif !important;
+  width: 100% !important;
+  text-align: center;
+}
+
+.tabel-guru{
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.data-guru{
+  font-family: 'Alata', sans-serif !important;
+}
+
+/* AKHIR GURU */
+
+/* SISWA */
+.tombol-filter{
+  font-family: 'Alata', sans-serif !important;
+}
+
+/* JADWAL UJIAN */
+.text-ujian{
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.text-ujian h1{
+  font-size: 54px !important;
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  .footer-bg,
+  .conect,
+  .img-sambutan,
+  .agenda,
+  .isi-agenda,
+  .pengajar-desc,
+  .panah-pengajar,
+  .foto-tentang,
+  .peta {
+    display: none;
+  }
+
+  .visi,
+  .isi-visi,
+  .misi,
+  .pengajar,
+  .sambut-nama {
+    font-size: 28px !important;
+  }
+
+  .sambutan,
+  .news,
+  .read-more,
+  .read-more-news,
+  .tentang {
+    font-size: 18px !important;
+  }
+
+  .isi-sambutan,
+  .isi-tentang {
+    font-size: 14px !important;
+  }
+
+  .scroll-news {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .foto-pengajar img {
+    width: 250px !important;
+    height: 370px !important;
+  }
+
+  .foto-scroll-news {
+    width: 250px !important;
+    height: 206px !important;
+    margin-right: 3px !important;
+  }
+
+  .konten-tentang {
+    width: 100% !important;
+    margin-left: 5px !important;
+  }
+
+  .footer-school {
+    font-size: 24px !important;
+  }
+
+  .footer-school-desc {
+    font-size: 12px !important;
+  }
+
+  .panah-agenda {
+    text-align: right;
+  }
+
+  /* Berita */
+
+  .tag-agenda,
+  .tag-lihat-semua,
+  .foto-berita-lain,
+  .agenda-prestasi-lain,
+  .peta {
+    display: none;
+  }
+
+  .foto-top img {
+    width: 100% !important;
+    height: 175px !important;
+    text-align: center;
+  }
+
+  .judul-berita-top {
+    font-size: 24px !important;
+  }
+
+  .desc-berita-top {
+    font-size: 16px !important;
+  }
+
+  .waktu-berita-top {
+    font-size: 12px !important;
+  }
+
+  /*Akhir Berita */
+
+
+  /*GALERI*/
+  .galeri {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /*AKHIR GALERI*/
+
+  /* TENTANG SEKOLAH */
+  .tentang-sekolah h2 {
+    font-size: 24px !important;
+  }
+
+  .tentang-sekolah {
+    font-size: 24px !important;
+  }
+
+  .isi-tentang-sekolah {
+    font-size: 14px !important;
+  }
+
+  /* AKHIR TENTANG SEKOLAH */
+
+  /* VISI MISI */
+  .konten-visi-misi {
+    width: 100% !important;
+  }
+
+  .visi-misi {
+    font-size: 28px !important;
+  }
+
+  .tag-lihat-semua-visi-misi,
+  .tag-agenda-visi-misi,
+  .tag-berita-lain-visi-misi,
+  .agenda-prestasi-lain-visi-misi {
+    display: none;
+  }
+  /* AKHIR VISI MISI */
+
+  /* SISWA */
+  .tombol-filter,
+  .tahun,
+  .kelas,
+  .minat,
+  .rombel{
+    margin-top: 10px !important;
+  }
+
+  /* Guru */
+  .pilih-filter{
+    font-family: 'Alata', sans-serif !important;
+    width: 100% !important;
+  }
+
+  /* JASWAL ujian */
+  .img-ujian img{
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .text-ujian h1{
+    font-size: 36px !important;
+  }
+
+  /* PENGURUS OSIS */
+  .pengurus-osis{
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .footer-bg,
+  .img-sambutan,
+  .agenda,
+  .isi-agenda,
+  .pengajar-desc {
+    display: none;
+  }
+
+  /*BERITA*/
+  .foto-top {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .foto-top img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .judul-berita-top {
+    font-size: 24px !important;
+  }
+
+  .desc-berita-top {
+    font-size: 16px !important;
+  }
+
+  .waktu-berita-top {
+    font-size: 12px !important;
+  }
+
+  .tag-agenda,
+  .tag-lihat-semua,
+  .agenda-prestasi-lain,
+  .foto-berita-lain {
+    display: none;
+  }
+
+  .judul-berita-top,
+  .desc-berita-top,
+  .waktu-berita-top {
+    margin-left: 15px !important;
+    margin-right: 20px !important;
+  }
+
+  .tag-berita-lain,
+  .judul-berita-lain,
+  .desc-berita-lain,
+  .waktu-berita-lain {
+    margin-left: 20px !important;
+  }
+
+  .foto-berita-lain {
+    padding-top: 20px !important;
+  }
+
+  /*Akhir Berita*/
+
+
+  /*GALERI*/
+
+  .galeri {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /*AKHIR GALERI*/
+
+  /* VISI MISI */
+  .tag-lihat-semua-visi-misi,
+  .tag-agenda-visi-misi,
+  .tag-berita-lain-visi-misi,
+  .agenda-prestasi-lain-visi-misi {
+    display: none;
+  }
+  /* AKHIR VISI MISI */
+
+  /* GURU */
+  .pilih-filter{
+    font-family: 'Alata', sans-serif !important;
+    width: 100% !important;
+  }
+
+  /* SISWA */
+  .tombol-filter,
+  .tahun,
+  .kelas,
+  .minat,
+  .rombel{
+    margin-top: 10px !important;
+  }
+
+  /* JADWAL UJIAN */
+  .img-ujian img{
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .text-ujian h1{
+    font-size: 45px !important;
+  }
+
+  /* PENGURUS OSIS */
+  .pengurus-osis{
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .img-sambutan img {
+    width: 220px !important;
+    height: auto !important;
+    text-align: left;
+  }
+
+  .foto-tentang img {
+    width: 700px !important;
+    height: auto !important;
+  }
+
+  /*Berita*/
+  .foto-top img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .tag-berita-lain,
+  .judul-berita-lain,
+  .desc-berita-lain,
+  .waktu-berita-lain {
+    margin-left: 20px !important;
+  }
+
+  .judul-berita-top,
+  .desc-berita-top,
+  .waktu-berita-top {
+    margin-left: 10px !important;
+  }
+
+  .tag-agenda,
+  .tag-lihat-semua,
+  .agenda-prestasi-lain {
+    display: none;
+  }
+
+  .foto-berita-lain {
+    margin-top: 55px !important;
+  }
+
+  .foto-berita-lain img {
+    margin-top: 35px !important;
+  }
+
+  /*GALERI*/
+  .kolom-galeri {
+    margin-left: 110px !important;
+  }
+
+  /* AKHIR GALERI */
+
+  /* PRESTASI */
+  .foto-prestasi{
+    width: 200px !important;
+    height: 170px !important;
+  }
+
+  .sarpras{
+    margin-left: 110px !important;
+  }
+
+/* Guru */
+.pilih-filter{
+  font-family: 'Alata', sans-serif !important;
+  width: 100% !important;
+}
+
+/* SISWA */
+
+
+/* JADWAL UJIAN */
+.img-ujian img{
+  width: 100% !important;
+  height: auto !important;
+}
+
+.text-ujian h1{
+  font-size: 48px !important;
+}
+
+}
+
+@media (min-width: 956px) and (max-width: 1049px) {
+
+  /*Berita*/
+
+  .foto-top img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .tag-berita-lain,
+  .judul-berita-lain,
+  .desc-berita-lain,
+  .waktu-berita-lain {
+    margin-left: 20px !important;
+  }
+
+  .judul-berita-top,
+  .desc-berita-top,
+  .waktu-berita-top {
+    margin-left: 10px !important;
+  }
+
+  .foto-berita-lain {
+    margin-top: 55px !important;
+  }
+
+  .foto-berita-lain img {
+    margin-top: 10px !important;
+  }
+
+  /* AKHIR BERITA */
+
+  /*GALERI*/
+  .galeri {
+    width: 330px !important;
+  }
+
+  /* GURU */
+  .pilih-filter{
+    font-family: 'Alata', sans-serif !important;
+    width: 100% !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 1050px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="asset/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/CSS Utama/index.css">
+    <script src="asset/js/jQuery3.6.0.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="asset/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="asset/img/favicon.ico" type="image/x-icon">
+
+    <title>SMA</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="asset/img/logo.png" width="30" height="30" class="d-inline-block align-top mr-2 ml-4" alt="">
+        <a class="navbar-brand" href="#">SMAN 1 Schoolmedia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-5 pl-5" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        BERANDA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="berita.html">Berita</a>
+                        <a class="dropdown-item" href="galeri.html">Galeri</a>
+                        <a class="dropdown-item" href="video.html">Video</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        PROFIL
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="tentangSekolah.html">Tentang Sekolah</a>
+                        <a class="dropdown-item" href="visiMisi.html">Visi dan Misi</a>
+                        <a class="dropdown-item" href="kepalaSekolah.html">Kepala Sekolah</a>
+                        <a class="dropdown-item" href="prestasi.html">Prestasi Sekolah</a>
+                        <a class="dropdown-item" href="peminatan.html">Peminatan</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        DATA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="sarpras.html">Sarpras</a>
+                        <a class="dropdown-item" href="guru.html">Guru</a>
+                        <a class="dropdown-item" href="siswa.html">Siswa</a>
+                        <a class="dropdown-item" href="lainnya.html">Lainnya</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        INFORMASI
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="pengumuman.html">Pengumuman</a>
+                        <a class="dropdown-item" href="agenda.html">Agenda Kegiatan</a>
+                        <a class="dropdown-item" href="jadwalPelajaran.html">Jadwal Pelajaran</a>
+                        <a class="dropdown-item" href="jadwalUjian.html">Jadwal Ujian</a>
+                        <a class="dropdown-item" href="ekstrakurikuler.html">Ekstrakurikuler</a>
+                        <a class="dropdown-item" href="unduhan.html">Unduhan</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        OSIS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="tentangOsis.html">Tentang OSIS</a>
+                        <a class="dropdown-item" href="pengurusOsis.html">Pengurus OSIS</a>
+                        <a class="dropdown-item" href="kegiatanOsis.html">Bidang Kegiatan</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        OPINI
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="opiniGuru.html">Guru</a>
+                        <a class="dropdown-item" href="opiniSiswa.html">Siswa</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        APLIKASI
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://schoolmedia.id">Schoolmedia</a>
+                        <a class="dropdown-item" href="https://event.schoolmedia.id">Event</a>
+                        <a class="dropdown-item" href="https://jurnal.schoolmedia.id">JA</a>
+                        <a class="dropdown-item" href="https://rpp.schoolmedia.id">RPP</a>
+                        <a class="dropdown-item" href="https://video.schoolmedia.id">Video</a>
+                        <a class="dropdown-item" href="https://mau.schoolmedia.id">MAU</a>
+                        <a class="dropdown-item" href="https://ujianluring.schoolmedia.id">Ujian Luring</a>
+                        <a class="dropdown-item" href="https://testonline.schoolmedia.id">Test Online</a>
+                        <a class="dropdown-item" href="https://tryout.schoolmedia.id">Try Out</a>
+                        <a class="dropdown-item" href="https://materi.schoolmedia.id">Materi Belajar</a>
+                        <a class="dropdown-item" href="https://tesbakat.schoolmedia.id">Tes Bakat</a>
+                        <a class="dropdown-item" href="https://schoolmedia.biz.id">Biz</a>
+                        <a class="dropdown-item" href="https://scoin.id">Scoin</a>
+                        <a class="dropdown-item" href="https://news.schoolmedia.id">News</a>
+                        <a class="dropdown-item" href="https://pitakon.schoolmedia.id">Pitakon</a>
+                        <a class="dropdown-item" href="https://kuisioner.schoolmedia.id">Kuisioner</a>
+                        <a class="dropdown-item" href="https://ppdb.schoolmedia.id">PPDB</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        LINK
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://belajar.kemdikbud.go.id">Rumah Belajar</a>
+                        <a class="dropdown-item" href="https://www.detik.comx">detik</a>
+                        <a class="dropdown-item" href="https://bos.kemdikbud.go.id">Portal BOS</a>
+                        <a class="dropdown-item" href="https://unbk.kemdikbud.go.id">Ujian Nasional</a>
+                        <a class="dropdown-item" href="https://psmk.kemdikbud.go.id">PSMK</a>
+                        <a class="dropdown-item" href="https://kemdikbud.go.id">Kemdikbud</a>
+                        <a class="dropdown-item" href="https://www.ruangguru.com">Ruang Guru</a>
+                        <a class="dropdown-item" href="https://www.kompas.com/tag/kelulusan">Kelulusan</a>
+                    </div>
+                </li>
+                <a href="#" class="btn btn-primary btn-sm rounded-pill mt-2 ml-5 "><img src="asset/img/login.svg" alt=""
+                        width="23" height="23" />
+                    <span>LOGIN</span></a>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar Akhir -->
+
+    <!-- Header -->
+    <div class="container-fluid text-white bg">
+        <div class="d-flex justify-content-end">
+            <a href=""><img class="mr-3 mt-4" src="asset/img/l.svg" alt="" /></a>
+            <a href=""><img class="mr-3 mt-4" src="asset/img/r.svg" alt="" /></a>
+        </div>
+        <div class="d-flex bd-highlight">
+            <div class="p-2 w-100 bd-highlight">
+                <p class="h1 no">01 <span class="h4 no1">/ 03</span></p>
+                <br>
+                <br>
+                <h1 class="school">SMAN 1 Schoolmedia, Resmi menjadi pelopor pendidikan masa depan</h1>
+                <br>
+                <br>
+                <p class="sch-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea co...</p>
+                <br>
+                <a class="text-white" href=""><span class="h5 font-weight-bolder read-more">Read More </span><img
+                        src="asset/img/kanan.svg" alt=""></a>
+            </div>
+            <div class="p-2 flex-shrink-1 bd-highlight mt-5 conect">
+                <br><br>
+                <img src="asset/img/lurus-garis.svg" alt="" /><br /><br>
+                <a href=""><img class="mr-3" src="asset/img/fb.svg" alt="" /></a><br /><br>
+                <a href=""><img class="mr-3" src="asset/img/yt.svg" alt="" /></a><br /><br>
+                <a href=""><img class="mr-3" src="asset/img/linkd.svg" alt="" /></a><br /><br>
+                <img src="asset/img/lurus-garis.svg" alt="" />
+            </div>
+        </div>
+        <div class="container-fluid mt-5 pt-5 footer-bg">
+            <div class="row">
+                <div class="col-md">
+                    <img class="text-left" src="asset/img/tel.svg" alt="" /> <span class="ml-4 h5 cal"> Punya
+                        Pertanyaan?</span>
+                    <br>
+                    <p class="text-center mt-2 mr-5 num">(0426) 2325113</p>
+                </div>
+                <div class="col-md text-center border-left border-right">
+                    <img src="asset/img/cal.svg" alt="" /> <span class="text-center ml-4 h5 jadwal"> Jadwal Buka
+                        Kantor:</span>
+                    <br>
+                    <p class="text-center ml-5 pl-3 mt-2 waktu">Senin - Jumat 08:00 - 18:00</p>
+                </div>
+                <div class="col-md text-right">
+                    <img src="asset/img/mail.svg" alt="" /> <span class="text-center ml-4 h5 alamat"> Kirim Email
+                        Melalui:</span>
+                    <br>
+                    <p class="text-right mt-2 email">admin@silopis.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Header -->
+
+    <!-- Visi -->
+    <br>
+    <div class="container-fluid text-center" data-aos="fade-down">
+        <h2 class="text-center text-black-50 visi">VISI</h2>
+        <p class="h3 font-weight-bold isi-visi">Terwujudnya Peserta Didik Yang Beriman, Cerdas,
+            Terampil, Mandiri Dan Berwawasan Global</p>
+        <br>
+    </div>
+    <!-- Akhir Visi -->
+
+
+    <!--Misi-->
+    <div class="container-fluid" data-aos="zoom-in-up" style="border-top: 1px dashed; border-bottom: 1px dashed;">
+        <h2 class="text-center text-black-50 misi">MISI</h2>
+        <div class="row">
+            <div class="col-md h3 font-weight-bold text-center ml-3 isi-misi">
+                <span class="h3 text-black-50 text-left no-misi">01</span> Peningkatan kualitas sumberdaya manusia baik
+                secara
+                internal maupun eksternal <br><br>
+                <p><span class="h3 text-black-50 text-left no-misi">02</span> Penciptaan lapangan kerja</p>
+                <br>
+                <p><span class="h3 text-black-50 text-left no-misi">03</span> Pengentasan kemiskinan</p>
+                <br>
+                <p><span class="h3 text-black-50 text-left no-misi">04</span> Ketahanan dan keamanan pangan</p>
+                <br>
+                <span class="h3 text-black-50 no-misi">05</span> Pengawasan dan pengendalian sumberdaya kelautan dan
+                perikanan <br>
+                <br>
+            </div>
+            <div class="col-md h3 font-weight-bold text-center mr-3 isi-misi">
+                <p><span class="h3 text-black-50 no-misi">06</span> Peningkatan mutu dan daya saing produk perikanan dan
+                    kelautan</p>
+                <br>
+                <p><span class="h3 text-black-50 no-misi">07</span> Peningkatan pendapatan masyarakat pesisir (Nelayan
+                    pembudidaya dan mina holder lainnya)</p>
+                <br>
+                <p><span class="h3 text-black-50 no-misi">08</span> Peningkatan sarana dan prasarana produksi perikanan,
+                    pengolahan produk perikanan dan pemasaran produk
+                    serta pendukung lainnya</p>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- Akhir Misi -->
+
+    <!-- Sambutan -->
+    <div class="card mb-3 container-fluid mt-3 border-0" data-aos="zoom-in">
+        <div class="row no-gutters">
+            <div class="col-md-4 img-sambutan">
+                <img src="https://sd-scm-index.vercel.app/img2.png" class="rounded-circle mt-3 ml-5" width="282px"
+                    height="282px" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title font-weight-bold sambutan">Sambutan dari Kepala Sekolah</h2>
+                    <p class="card-text font-weight-bold display-4 sambut-nama">Drs. Surya Atmaja M.pd</p>
+                    <p class="card-text font-weight-bold isi-sambutan">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing
+                        elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu....</p>
+                    <p><a class="text-dark font-weight-bold" href="kepalaSekolah.html"><span class="read-more">Read More </span><img
+                                src="asset/img/right.svg" alt=""></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Sambutan -->
+
+
+    <!-- Agenda -->
+    <div class="container-fluid mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 text-center agenda">
+                    <p class="h5 font-weight-bolder">AGENDA BARU-BARU INI</p>
+                </div>
+                <div class="col-md-8 panah-agenda">
+                    <a href=""><img src="asset/img/news-left.svg" alt="" /></a>
+                    <a href=""><img src="asset/img/news-right.svg" alt="" /></a>
+                </div>
+            </div>
+            <div class="row" data-aos="zoom-in-down">
+                <div class="col-md-3 text-right scrollb isi-agenda">
+                    <a href="asset/page/pAgenda.html" class="text-dark">
+                        <img src="asset/img/calendar.svg" alt=""><span class="font-weight-bolder"> Kerja Bakti
+                            dalam
+                            memperingati hari kemerdekaan indonesia</span>
+                        <p class="small tgl-agenda">15 Oktober 2020 14:30 WIB - Selesai</p>
+                    </a>
+                    <a href="asset/page/pAgenda.html" class="text-dark">
+                        <img src="asset/img/calendar.svg" alt=""><span class="font-weight-bolder"> Kerja Bakti
+                            dalam
+                            memperingati hari kemerdekaan indonesia</span>
+                        <p class="small tgl-agenda">15 Oktober 2020 14:30 WIB - Selesai</p>
+                    </a>
+                    <a href="asset/page/pAgenda.html" class="text-dark">
+                        <img src="asset/img/calendar.svg" alt=""><span class="font-weight-bolder"> Kerja Bakti
+                            dalam
+                            memperingati hari kemerdekaan indonesia</span>
+                        <p class="small tgl-agenda">15 Oktober 2020 14:30 WIB - Selesai</p>
+                    </a>
+                    <a href="asset/page/pAgenda.html" class="text-dark">
+                        <img src="asset/img/calendar.svg" alt=""><span class="font-weight-bolder"> Kerja Bakti
+                            dalam
+                            memperingati hari kemerdekaan indonesia</span>
+                        <p class="small tgl-agenda">15 Oktober 2020 14:30 WIB - Selesai</p>
+                    </a>
+                    <a href="asset/page/pAgenda.html" class="text-dark">
+                        <img src="asset/img/calendar.svg" alt=""><span class="font-weight-bolder"> Kerja Bakti
+                            dalam
+                            memperingati hari kemerdekaan indonesia</span>
+                        <p class="small tgl-agenda">15 Oktober 2020 14:30 WIB - Selesai</p>
+                    </a>
+                </div>
+                <div class="col-md-9 scroll-news text-center" data-aos="zoom-in-left">
+                    <div class="d-flex flex-row flex-nowrap overflow-auto ">
+                        <div class="d-flex flex-column bd-highlight mr-5 text-center">
+                            <img src="asset/img/dummy-news.png" class="rounded foto-scroll-news" alt="">
+                            <p class="text-center small tgl-news">15 September · 12 min read</p>
+                            <p class="card-title font-weight-bold text-center news">Make a better website solution
+                                for your product.</p>
+                            <a href="asset/page/pBerita.html"><span class="font-weight-bolder read-more-news"> Read More </span><img
+                                    src="asset/img/right.svg" alt=""></a>
+                        </div>
+                        <div class="d-flex flex-column bd-highlight mr-5 text-center">
+                            <img src="asset/img/dummy-news.png" class="rounded foto-scroll-news" alt="">
+                            <p class="text-center small tgl-news">15 September · 12 min read</p>
+                            <p class="card-title font-weight-bold text-center news">Make a better website solution
+                                for your product.</p>
+                            <a href="asset/page/pBerita.html"><span class="font-weight-bolder read-more-news"> Read More </span><img
+                                    src="asset/img/right.svg" alt=""></a>
+                        </div>
+                        <div class="d-flex flex-column bd-highlight mr-5 text-center">
+                            <img src="asset/img/dummy-news.png" class="rounded foto-scroll-news" alt="">
+                            <p class="text-center small tgl-news">15 September · 12 min read</p>
+                            <p class="card-title font-weight-bold text-center news">Make a better website solution
+                                for your product.</p>
+                            <a href="asset/page/pBerita.html"><span class="font-weight-bolder read-more-news"> Read More </span><img
+                                    src="asset/img/right.svg" alt=""></a>
+                        </div>
+                        <div class="d-flex flex-column bd-highlight mr-5 text-center">
+                            <img src="asset/img/dummy-news.png" class="rounded foto-scroll-news" alt="">
+                            <p class="text-center small tgl-news">15 September · 12 min read</p>
+                            <p class="card-title font-weight-bold text-center news">Make a better website solution
+                                for your product.</p>
+                            <a href="asset/page/pBerita.html"><span class="font-weight-bolder read-more-news"> Read More </span><img
+                                    src="asset/img/right.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Agenda -->
+
+
+    <!-- Pengajar -->
+    <div class="container-fluid mt-5" data-aos="zoom-in">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 pengajar">
+                    <h2 class="">Para Pengajar <br />
+                        SMPN 1 Schoolmedia</h2>
+                </div>
+                <div class="col-md-5 pengajar-desc">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex eapsum dolor sit
+                        amet, consectetur. <br><br>
+                        <a class="text-info" href="guru.html"><span class="text-info font-weight-bolder">Lihat semua daftar
+                                pengajar</span></a>
+                    </p>
+                </div>
+                <div class="col-md-4 panah-pengajar text-right mt-md-5 mb-md-2">
+                    <a class="" href=""><img src="asset/img/news-left.svg" alt="" /></a>
+                    <a href=""><img src="asset/img/news-right.svg" alt="" /></a></div>
+            </div>
+        </div>
+        <div class="d-flex flex-row flex-nowrap overflow-auto foto-pengajar">
+            <img class="mr-3 rounded" src="asset/img/img-pengajar.png" alt="" width="320px" height="470px">
+            <img class="mr-3 rounded" src="asset/img/img-pengajar.png" alt="" width="320px" height="470px">
+            <img class="mr-3 rounded" src="asset/img/img-pengajar.png" alt="" width="320px" height="470px">
+            <img class="mr-3 rounded" src="asset/img/img-pengajar.png" alt="" width="320px" height="470px">
+            <img class="mr-3 rounded" src="asset/img/img-pengajar.png" alt="" width="320px" height="470px">
+            <img class="mr-3 rounded" src="asset/img/img-pengajar.png" alt="" width="320px" height="470px">
+        </div>
+    </div>
+    <!-- Akhir Pengajar -->
+
+
+    <!-- Tentang -->
+    <div class="container-fluid mt-md-5" data-aos="zoom-in">
+        <div class="row ">
+            <div class="col-md-6 text-center foto-tentang">
+                <img src="asset/img/dummy1.png" alt="" class="rounded">
+            </div>
+            <div class="col-md-6 mr-md-5 konten-tentang">
+                <h2 class="text-center tentang">Tentang SMAN 1 Schoolmedia</h2>
+                <p class="text-justify isi-tentang">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
+                <p class="text-justify isi-tentang">
+                    Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex eapsum dolor sit
+                    amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt u.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Tentang -->
+
+
+    <!-- Footer -->
+    <footer class="container-fluid mt-5" style="border-top: 1px solid #c4c4c4;">
+        <div class="d-flex flex-column bd-highlight mt-md-5 ml-md-5">
+            <img src="asset/img/logo.png" width="44" height="44" class="d-inline-block align-top" alt="">
+            <h5 class="mt-md-3 footer-school">SMAN 1 Schoolmedia</h5>
+        </div>
+        <div class="container-fluid mt-md-5 ml-md-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="font-weight-bold footer-school">Kantor Pusat</h2>
+                    <p class="small font-weight-bolder footer-school-desc">Jl. Cut Nya Dien No.13, Rangas, Kec. Mamuju,
+                        Kabupaten Mamuju,
+                        Sulawesi Barat 91512</p>
+                    <h2 class="font-weight-bold footer-school">Telp & Fax</h2>
+                    <p class="small font-weight-bolder footer-school-desc">(0426) 2325113</p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="font-weight-bold footer-school">E-mail</h2>
+                    <p class="small font-weight-bolder footer-school-desc">admin@schoolmedia.id</p>
+                    <h2 class="font-weight-bold footer-school">Designed by schoolmedia. All rights reserved v5.0.0
+                        Copyright 2021.</h2>
+                </div>
+                <div class="col-md-4 peta">
+                    <div class="embed-responsive embed-responsive-4by3 mb-5 mr-3" width="426" height="435"
+                        style="border: 0; border-radius: 11px" allowfullscreen="" loading="lazy">
+                        <iframe class="embed-responsive-item"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16278366.05550441!2d104.48983527777393!3d-5.06960818899411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d92d7667ddea561%3A0x10293a8d25f88cf2!2sDinas%20Kelautan%20dan%20Perikanan%20Propinsi%20Sulawesi%20Barat!5e0!3m2!1sid!2sid!4v1635127724247!5m2!1sid!2sid"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Tutup AOS -->
+
+</body>
+<script src="asset/js/bootstrap.bundle.min.js"></script>
+
+</html>

@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anonymous+Pro&family=Nunito&family=Oswald&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora&family=Oswald&family=Prata&family=Roboto&display=swap');
+
+
+nav {
+    font-family: 'Alata', sans-serif !important;
+}
+
+.footer-school {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.footer-school-desc {
+    font-family: 'Alata', sans-serif !important;
+}
+
+.foto-top img {
+    width: 428px;
+    height: 227px;
+    border-radius: 7px;
+}
+
+.judul-video-top {
+    font-size: 36px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.desc-video-top {
+    font-size: 18px !important;
+    font-family: 'Alata', sans-serif !important;
+}
+
+.isi-video {
+    font-size: 16px !important;
+    font-family: 'Alata', sans-serif !important;
+}
+
+.read-more-galeri {
+    font-size: 14px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.tag-lihat-semua {
+    font-size: 14px !important;
+    font-family: 'Readex Pro', sans-serif !important;
+}
+
+.tag-berita {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.judul-berita {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.waktu-berita {
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.tag-agenda {
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.scrollb {
+    max-height: 400px;
+    overflow-x: auto;
+}
+
+@media (max-width: 575.98px) {
+
+    .peta,
+    .agenda-berita-lain,
+    .tag-lihat-semua,
+    .tag-berita {
+        display: none;
+    }
+
+    .foto-top img {
+        width: 100% !important;
+        height: 175px !important;
+        text-align: center;
+    }
+
+    .judul-video-top {
+        font-size: 24px !important;
+    }
+
+    .desc-video-top {
+        font-size: 16px !important;
+    }
+
+    .video {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .footer-school {
+        font-size: 24px !important;
+    }
+
+    .footer-school-desc {
+        font-size: 12px !important;
+    }
+
+    .foto-video{
+        width: 80% !important;
+        height: auto !important;
+    }
+
+    .jarak-video{
+        margin-top: 35px !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .agenda-berita-lain,
+    .tag-lihat-semua,
+    .tag-berita,
+    .peta {
+        display: none;
+    }
+
+    .foto-top img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .judul-video-top {
+        font-size: 24px !important;
+    }
+
+    .desc-video-top {
+        font-size: 16px !important;
+    }
+
+    .video {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .tag-agenda {
+        margin-left: 20px !important;
+    }
+
+    .foto-video{
+        width: 80% !important;
+        height: auto;
+    }
+
+    .jarak-video{
+        margin-top: 35px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .agenda-berita-lain {
+        display: none;
+    }
+
+    .foto-top img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .kolom-video {
+        margin-left: 110px !important;
+    }
+
+    .tag-agenda {
+        margin-left: 20px !important;
+    }
+
+    
+}
+
+@media (min-width: 956px) and (max-width: 1049px) {
+
+    .foto-top img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .video {
+        width: 330px !important;
+    }
+
+    .tag-agenda {
+        margin-left: 20px !important;
+    }
+}

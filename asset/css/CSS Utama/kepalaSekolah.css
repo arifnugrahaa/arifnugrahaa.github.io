@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Anonymous+Pro&family=Nunito&family=Oswald&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lora&family=Oswald&family=Prata&family=Roboto&display=swap');
+
+
+nav {
+    font-family: 'Alata', sans-serif !important;
+
+}
+
+.footer-school {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.footer-school-desc {
+    font-family: 'Alata', sans-serif !important;
+}
+
+.kepala-sekolah {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.sambutan {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.sambut-nama {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.isi-sambutan {
+    font-family: 'Alata', sans-serif !important;
+}
+
+@media (max-width: 575.98px) {
+
+    .peta,
+    .img-sambutan {
+        display: none;
+    }
+
+    .footer-school {
+        font-size: 24px !important;
+    }
+
+    .footer-school-desc {
+        font-size: 12px !important;
+    }
+
+    .sambutan {
+        font-size: 18px !important;
+    }
+
+    .sambut-nama {
+        font-size: 28px !important;
+    }
+
+    .isi-sambutan {
+        font-size: 14px !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .img-sambutan,
+    .peta {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .img-sambutan img {
+        width: 220px !important;
+        height: auto !important;
+        text-align: left;
+    }
+}
+
+@media (min-width: 956px) and (max-width: 1049px) {}
